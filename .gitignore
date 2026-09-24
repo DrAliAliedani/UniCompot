@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.token
+hf_token*
+
+# Corpus and generated outputs (release selectively)
+data/*.pdf
+results/*
+!results/.gitkeep
+*.xlsx
+human_eval_answer_key.csv
+
+# OS
+.DS_Store
+Thumbs.db
